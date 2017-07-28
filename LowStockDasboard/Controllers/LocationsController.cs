@@ -15,6 +15,7 @@ namespace LowStockDasboard.Controllers
         {
             System.Threading.Thread.Sleep(1000);
 
+            
             List<Models.Location> locations = new List<Models.Location>();            
 
             locations = new List<Models.Location>();
