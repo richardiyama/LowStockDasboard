@@ -1,4 +1,5 @@
-﻿var GridController = function ($scope, $uibModal,Api) {
+﻿
+var GridController = function ($scope, $uibModal,Api) {
     $scope.data = {
         lowstockdata: {
             totalitems: 0,
