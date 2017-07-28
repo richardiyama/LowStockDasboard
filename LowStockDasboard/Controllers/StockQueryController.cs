@@ -22,6 +22,7 @@ namespace LowStockDasboard.Controllers
             Models.Location location = locations.Find(s => s.LocationId == request.LocationId);
             for (int i = 0; i < request.EntriesPerPage; i++)
             {
+                
                 int newProductSuffix = (i + (request.EntriesPerPage * (request.PageNumber - 1)));
                 output.Add(new Models.StockLevelItem()
                 {
