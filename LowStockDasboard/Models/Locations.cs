@@ -7,6 +7,7 @@ namespace LowStockDasboard.Models
 {
     public class Location
     {
+       
         public string LocationId;
         public string LocationName;
     }
