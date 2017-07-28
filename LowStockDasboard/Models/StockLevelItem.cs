@@ -7,6 +7,7 @@ namespace LowStockDasboard.Models
 {
     public class StockLevelItem
     {
+       
         public string SKU;
         public string ProductTitle;
         public int OnOrder;
