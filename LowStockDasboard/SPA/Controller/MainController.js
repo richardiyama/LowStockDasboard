@@ -1,4 +1,5 @@
-﻿var MainController = function ($scope, Api) {
+
+var MainController = function ($scope, Api) {
     $scope.models = {
         locations: [
                        
