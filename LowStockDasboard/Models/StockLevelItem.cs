@@ -5,8 +5,10 @@ using System.Web;
 
 namespace LowStockDasboard.Models
 {
+    
     public class StockLevelItem
     {
+       
        
         public string SKU;
         public string ProductTitle;
@@ -14,5 +16,6 @@ namespace LowStockDasboard.Models
         public int Due;
         public int StockLevel;
         public string Location;
+    
     }
 }
